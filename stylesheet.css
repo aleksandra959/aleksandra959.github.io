@@ -1,0 +1,66 @@
+*{
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+}
+
+#logo
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+#nav
+{
+    float: left;
+    background-color: lightgray;
+    width: 15%;
+    min-height: 620px;
+    padding: 20px;
+    font-size: 30px;
+}
+#nav a{
+  text-decoration: none;
+  color: black;
+}
+#nav a:hover {
+  font-weight:bold;
+  color:white;
+}
+.header_links{
+  font-size: 20px;
+  text-align: center;
+}
+.header_links button{
+  border:0;
+  width:  70px;
+  padding: 10px;
+}
+#content{
+    float: left;
+    padding: 30px;
+    width: 70%;
+    font-size: 20px;
+}
+#ad
+{
+    overflow: hidden;
+    float: right;
+    width: 15%;
+    height: 620px;
+    padding: 0;
+    background-color: lightgray;
+}
+
+#footer
+{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
